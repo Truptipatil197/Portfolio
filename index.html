@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trupti Patil | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div><b>Trupti Patil</b></div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div id="themeToggleContainer" style="display:flex;align-items:center;gap:0.7rem;">
+    <label class="icon-toggle-switch" style="margin-bottom:0;cursor:pointer;">
+      <input type="checkbox" id="themeToggleBtn" style="display:none;">
+      <span class="icon-toggle-slider">
+        <span class="icon-moon" style="font-size:1.2rem;">🌙</span>
+        <span class="icon-sun" style="font-size:1.2rem;">☀️</span>
+      </span>
+    </label>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg-blob"></div>
+  <div class="hero-content">
+    <img src="Profile.png" alt="Profile Photo" class="profile-photo" />
+    <div class="hero-subtitle">Welcome to My Portfolio</div>
+    <h1>Hello, I'm <span class="typed"></span></h1>
+    <p>Final Year B.Tech CSE | UI/UX Enthusiast | Aspiring Web Developer</p>
+    <button class="hero-btn" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View My Projects</button>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <p style="text-align:center;"> I’m a final-year B.Tech Computer Science and Engineering student with a passion for 
+    <b>UI/UX design</b>, <b>Web Development</b>, and building technology that creates impact. 
+    With strong communication and leadership skills, I have hosted events, organized workshops, 
+    and represented my institute at national-level competitions. Alongside proficiency in 
+    <b>C, C++, Python, and Java</b>, I enjoy combining creativity with problem-solving to design 
+    user-friendly solutions. I am eager to apply my skills in real-world projects and grow 
+    as a professional in the tech industry.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <div class="skills-list">
+      <span class="skill-chip">C</span>
+      <span class="skill-chip">C++</span>
+      <span class="skill-chip">Python</span>
+      <span class="skill-chip">Java</span>
+      <span class="skill-chip">HTML</span>
+      <span class="skill-chip">CSS</span>
+      <span class="skill-chip">JavaScript</span>
+      <span class="skill-chip">UI/UX Design</span>
+      <span class="skill-chip">Figma</span>
+      <span class="skill-chip">Canva</span>
+      <span class="skill-chip">SQL</span>
+      <span class="skill-chip">DBMS</span>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="card-container">
+
+    <div class="card">
+      <h3>🎓 B.Tech in Computer Science & Engineering</h3>
+      <p><b>TKIET, Warananagar</b> | 2022 – 2026</p>
+      <p>CGPA: 9.37 / 10</p>
+      <p>Relevant Coursework: OOPs, Data Structures, DBMS, Operating Systems</p>
+    </div>
+
+    <div class="card">
+      <h3>🏫 Higher Secondary (HSC) – Science</h3>
+      <p><b>YCIS Junior College, Satara</b> | 2020 – 2022</p>
+      <p>Percentage: 72.12%</p>
+    </div>
+
+    <div class="card">
+      <h3>📘 Secondary (SSC)</h3>
+      <p><b>S.D.N.C High School, Satara</b> | 2020</p>
+      <p>Percentage: 92.20%</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Certifications -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="card-container">
+
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Completed a certified course covering HTML, CSS, JavaScript, and hands-on experience.</p>
+      <a href="Certifications/Web_development_course.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>UI/UX Design</h3>
+      <p>Virtual Internship focused on user research, wireframing, and design thinking.</p>
+      <a href="Certifications/Certificate%20of%20UIUX%20internship.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Cybersecurity Virtual Internship</h3>
+      <p>Gained exposure to ethical hacking, network security, and best practices.</p>
+      <a href="Certifications/Cybersecurity_internship.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Business Communication</h3>
+      <p>Improved professional communication, presentation, and interpersonal skills.</p>
+      <a href="Certifications/Business_Communication.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Advanced Prompt Engineering</h3>
+      <p>Learned to craft optimized prompts for AI tools to maximize efficiency.</p>
+      <a href="Certifications/upGrad%20Course%20Completion.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>AWS Cloud Foundations (In Progress)</h3>
+      <p>Learning cloud computing fundamentals, AWS services, and deployment best practices.</p>
+      <a href="#" target="_blank">View Certificate</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Achievements -->
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card-container">
+
+    <div class="card">
+      <h3>📚 Academic</h3>
+      <p>Honored with the <b>Academic Excellence Award</b> for <b>3 consecutive years</b> in B.Tech, 
+         recognizing consistent performance and dedication in Computer Science and Engineering.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎤 Co-Curricular</h3>
+      <p><b>1st Prize</b> in Debate Competition and <b>2nd Prize</b> in Elocution Competition, 
+         showcasing strong communication and analytical thinking skills.  
+         Also organized and volunteered in <b>technical workshops</b> to support peer learning.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎭 Cultural</h3>
+      <p>Served as <b>Anchor & Host</b> for various departmental programs and institutional events, 
+         enhancing confidence, stage presence, and leadership abilities.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌍 National Level</h3>
+      <p>Awarded <b>1st Prize</b> in <i>Eureka-Jidnyasa</i> National Paper Presentation, 
+         competing with participants across the country and presenting innovative research ideas.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card-container">
+
+    <!-- Project 1 -->
+    <div class="card">
+      <span class="project-icon">💻</span>
+      <h3>AI-Based Health Monitoring System</h3>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">AI</span>
+        <span class="project-tag">OpenCV</span>
+        <span class="project-tag">Mediapipe</span>
+        <span class="project-tag">SQLite</span>
+      </div>
+      <p>A desktop application to monitor posture, eye blinks, and screen time for software engineers, using real-time AI-powered detection and health reminders.</p>
+      <a href="https://github.com/yourusername/AI-Health-Monitoring" target="_blank">📂 View on GitHub</a>
+    </div>
+
+    <!-- Project 2 (Mini Project) -->
+    <div class="card">
+      <span class="project-icon">🍽️</span>
+      <h3>Delicious Bites - Restaurant Website (Mini Project)</h3>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">JavaScript</span>
+      </div>
+      <p>A mini-project demonstrating a responsive static restaurant website with menu, about section, and contact form. Built as a practice project for frontend development.</p>
+      <a href="https://github.com/yourusername/Delicious-Bites" target="_blank">📂 View on GitHub</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card">
+      <span class="project-icon">🎵</span>
+      <h3>Responsive Music App (UI/UX)</h3>
+      <div class="project-tags">
+        <span class="project-tag">Figma</span>
+        <span class="project-tag">UI/UX</span>
+        <span class="project-tag">Prototyping</span>
+      </div>
+      <p>A creative UI/UX design for a responsive music streaming app, with clean layouts and smooth navigation flow. Designed using Figma.</p>
+      <a href="https://www.figma.com/proto/JjdclilKnekcpGgveM0Dot/Music-Player-Website---App?node-id=124-3" target="_blank">🎨 View Design</a>
+      <a href="https://github.com/Truptipatil197/Responsive_Music_Website" target="_blank">📂 View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Blog -->
+<section id="blog">
+  <h2>Blog & Articles</h2>
+  <div class="card-container">
+    <div class="card">
+      <h4>Coming Soon!</h4>
+      <p>I will soon be sharing articles and insights on <b>latest technology trends, emerging innovations, and current affairs in tech</b>. 
+Stay tuned for updates!</p>
+    </div>
+    <div class="card">
+      <h4>Stay Tuned!</h4>
+      <p>Exciting posts about <b>technology, development, and personal projects</b> will be published here soon. 
+      Meanwhile, feel free to check out my <b>projects and achievements</b> above!</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Hobbies & Interests -->
+<section id="hobbies">
+  <h2>Hobbies & Interests</h2>
+  <div class="card-container">
+
+    <div class="card hobby-card">
+      <h3>🎤 Public Speaking & Anchoring</h3>
+      <p>Enjoy hosting events and presenting ideas clearly to audiences.</p>
+    </div>
+
+    <div class="card hobby-card">
+      <h3>📚 Writing & Knowledge Sharing</h3>
+      <p>Love documenting experiences, writing articles, and helping peers learn.</p>
+    </div>
+
+    <div class="card hobby-card">
+      <h3>🧘‍♀️ Meditation & Mindfulness</h3>
+      <p>Practice mindfulness to stay focused and reduce stress during studies.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div style="max-width: 540px; margin: 2.5rem auto 0 auto; background: var(--card); border-radius: 16px; box-shadow: 0 2px 12px rgba(20,184,166,0.10); padding: 2.2rem 2rem 2.2rem 2rem;">
+    <p style="font-size:1.13rem; color:var(--text); text-align:center; margin-bottom:2.2rem; line-height:1.7;">
+      I’d love to connect with you! Whether you have an opportunity, a project idea, 
+    or just want to say hello, feel free to reach out. I’m always open to meaningful 
+    conversations and collaborations.
+    </p>
+    <div style="display:flex; flex-direction:column; align-items:center; gap:1.2rem;">
+      <div style="font-size:1.18rem; color:var(--accent); font-weight:500; margin-bottom:0.2rem;">📧 Email</div>
+      <a href="mailto:truptipreetam@gmail.com" style="color:var(--accent); font-size:1.13rem; font-weight:500; text-decoration:none; word-break:break-all;">truptipreetam@gmail.com</a>
+      <div style="margin:1.5rem 0 0.5rem 0; font-size:1.1rem; color:var(--text);">Or connect with me on:</div>
+      <div style="display:flex; gap:1.2rem; justify-content:center;">
+        <a href="https://github.com/Truptipatil197" target="_blank" style="background:var(--accent); color:var(--card); border-radius:22px; padding:0.55rem 1.3rem; font-size:1.05rem; font-weight:600; text-decoration:none; box-shadow:0 1px 6px rgba(20,184,166,0.10); transition:background 0.2s, color 0.2s;">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/truptipatil197/" target="_blank" style="background:var(--accent); color:var(--card); border-radius:22px; padding:0.55rem 1.3rem; font-size:1.05rem; font-weight:600; text-decoration:none; box-shadow:0 1px 6px rgba(20,184,166,0.10); transition:background 0.2s, color 0.2s;">💼 LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Trupti Patil | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
