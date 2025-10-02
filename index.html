@@ -17,17 +17,13 @@
     <a href="#certifications">Certifications</a>
     <a href="#achievements">Achievements</a>
     <a href="#projects">Projects</a>
-    <a href="#blog">Blog</a>
     <a href="#hobbies">Hobbies</a>
     <a href="#contact">Contact</a>
   </nav>
   <div id="themeToggleContainer" style="display:flex;align-items:center;gap:0.7rem;">
     <label class="icon-toggle-switch" style="margin-bottom:0;cursor:pointer;">
       <input type="checkbox" id="themeToggleBtn" style="display:none;">
-      <span class="icon-toggle-slider">
-        <span class="icon-moon" style="font-size:1.2rem;">🌙</span>
-        <span class="icon-sun" style="font-size:1.2rem;">☀️</span>
-      </span>
+      <span class="icon-toggle-slider"> </span>
     </label>
   </div>
 </header>
@@ -40,7 +36,10 @@
     <div class="hero-subtitle">Welcome to My Portfolio</div>
     <h1>Hello, I'm <span class="typed"></span></h1>
     <p>Final Year B.Tech CSE | UI/UX Enthusiast | Aspiring Web Developer</p>
-    <button class="hero-btn" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View My Projects</button>
+    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <button class="hero-btn" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View My Projects</button>
+      <a href="Resume- Trupti Patil.pdf" class="hero-btn" download style="display:inline-block; text-align:center;">Download Resume</a>
+    </div>
   </div>
 </section>
 
@@ -71,8 +70,10 @@
       <span class="skill-chip">UI/UX Design</span>
       <span class="skill-chip">Figma</span>
       <span class="skill-chip">Canva</span>
+      <span class="skill-chip">OS</span>
       <span class="skill-chip">SQL</span>
       <span class="skill-chip">DBMS</span>
+      <span class="skill-chip">Git & Github</span>
     </div>
   </div>
 </section>
@@ -83,20 +84,20 @@
   <div class="card-container">
 
     <div class="card">
-      <h3>🎓 B.Tech in Computer Science & Engineering</h3>
-      <p><b>TKIET, Warananagar</b> | 2022 – 2026</p>
+      <h3> B.Tech in Computer Science & Engineering</h3>
+      <p><b>TKIET, Warananagar</b> | 2022 - 2026</p>
       <p>CGPA: 9.37 / 10</p>
       <p>Relevant Coursework: OOPs, Data Structures, DBMS, Operating Systems</p>
     </div>
 
     <div class="card">
-      <h3>🏫 Higher Secondary (HSC) – Science</h3>
-      <p><b>YCIS Junior College, Satara</b> | 2020 – 2022</p>
+      <h3> Higher Secondary (HSC) - Science</h3>
+      <p><b>YCIS Junior College, Satara</b> | 2020 - 2022</p>
       <p>Percentage: 72.12%</p>
     </div>
 
     <div class="card">
-      <h3>📘 Secondary (SSC)</h3>
+      <h3> Secondary (SSC)</h3>
       <p><b>S.D.N.C High School, Satara</b> | 2020</p>
       <p>Percentage: 92.20%</p>
     </div>
@@ -189,19 +190,19 @@
   <div class="card-container">
 
     <!-- Project 1 -->
-    <div class="card">
-      <span class="project-icon">💻</span>
-      <h3>AI-Based Health Monitoring System</h3>
-      <div class="project-tags">
-        <span class="project-tag">Python</span>
-        <span class="project-tag">AI</span>
-        <span class="project-tag">OpenCV</span>
-        <span class="project-tag">Mediapipe</span>
-        <span class="project-tag">SQLite</span>
-      </div>
-      <p>A desktop application to monitor posture, eye blinks, and screen time for software engineers, using real-time AI-powered detection and health reminders.</p>
-      <a href="https://github.com/yourusername/AI-Health-Monitoring" target="_blank">📂 View on GitHub</a>
-    </div>
+<div class="card">
+  <span class="project-icon">💻</span>
+  <h3>AI-Based Health Monitoring System</h3>
+  <div class="project-tags">
+    <span class="project-tag">Python</span>
+    <span class="project-tag">AI</span>
+    <span class="project-tag">OpenCV</span>
+    <span class="project-tag">Mediapipe</span>
+    <span class="project-tag">SQLite</span>
+  </div>
+  <p>A desktop application to monitor posture, eye blinks, and screen time for software engineers, using real-time AI-powered detection and health reminders.</p>
+  <p><strong> Coming Soon!</strong></p>
+</div>
 
     <!-- Project 2 (Mini Project) -->
     <div class="card">
@@ -213,7 +214,8 @@
         <span class="project-tag">JavaScript</span>
       </div>
       <p>A mini-project demonstrating a responsive static restaurant website with menu, about section, and contact form. Built as a practice project for frontend development.</p>
-      <a href="https://github.com/yourusername/Delicious-Bites" target="_blank">📂 View on GitHub</a>
+      <a href="https://github.com/Truptipatil197/Delicious_Bites" target="_blank"> View on GitHub</a>
+      <a href="https://truptipatil197.github.io/Delicious_Bites/" target="_blank"> Live Demo</a>
     </div>
 
     <!-- Project 3 -->
@@ -226,29 +228,10 @@
         <span class="project-tag">Prototyping</span>
       </div>
       <p>A creative UI/UX design for a responsive music streaming app, with clean layouts and smooth navigation flow. Designed using Figma.</p>
-      <a href="https://www.figma.com/proto/JjdclilKnekcpGgveM0Dot/Music-Player-Website---App?node-id=124-3" target="_blank">🎨 View Design</a>
-      <a href="https://github.com/Truptipatil197/Responsive_Music_Website" target="_blank">📂 View on GitHub</a>
+      <a href="https://www.figma.com/proto/JjdclilKnekcpGgveM0Dot/Music-Player-Website---App?node-id=124-3" target="_blank"> View Design</a>
+      <a href="https://github.com/Truptipatil197/Responsive_Music_Website" target="_blank"> View on GitHub</a>
     </div>
 
-  </div>
-</section>
-
-
-
-<!-- Blog -->
-<section id="blog">
-  <h2>Blog & Articles</h2>
-  <div class="card-container">
-    <div class="card">
-      <h4>Coming Soon!</h4>
-      <p>I will soon be sharing articles and insights on <b>latest technology trends, emerging innovations, and current affairs in tech</b>. 
-Stay tuned for updates!</p>
-    </div>
-    <div class="card">
-      <h4>Stay Tuned!</h4>
-      <p>Exciting posts about <b>technology, development, and personal projects</b> will be published here soon. 
-      Meanwhile, feel free to check out my <b>projects and achievements</b> above!</p>
-    </div>
   </div>
 </section>
 
@@ -286,12 +269,12 @@ Stay tuned for updates!</p>
     conversations and collaborations.
     </p>
     <div style="display:flex; flex-direction:column; align-items:center; gap:1.2rem;">
-      <div style="font-size:1.18rem; color:var(--accent); font-weight:500; margin-bottom:0.2rem;">📧 Email</div>
+      <div style="font-size:1.18rem; color:var(--accent); font-weight:500; margin-bottom:0.2rem;"> Email</div>
       <a href="mailto:truptipreetam@gmail.com" style="color:var(--accent); font-size:1.13rem; font-weight:500; text-decoration:none; word-break:break-all;">truptipreetam@gmail.com</a>
       <div style="margin:1.5rem 0 0.5rem 0; font-size:1.1rem; color:var(--text);">Or connect with me on:</div>
       <div style="display:flex; gap:1.2rem; justify-content:center;">
-        <a href="https://github.com/Truptipatil197" target="_blank" style="background:var(--accent); color:var(--card); border-radius:22px; padding:0.55rem 1.3rem; font-size:1.05rem; font-weight:600; text-decoration:none; box-shadow:0 1px 6px rgba(20,184,166,0.10); transition:background 0.2s, color 0.2s;">🐙 GitHub</a>
-        <a href="https://www.linkedin.com/in/truptipatil197/" target="_blank" style="background:var(--accent); color:var(--card); border-radius:22px; padding:0.55rem 1.3rem; font-size:1.05rem; font-weight:600; text-decoration:none; box-shadow:0 1px 6px rgba(20,184,166,0.10); transition:background 0.2s, color 0.2s;">💼 LinkedIn</a>
+  <a href="https://github.com/Truptipatil197" target="_blank" class="social-btn"> GitHub</a>
+  <a href="https://www.linkedin.com/in/truptipatil197/" target="_blank" class="social-btn"> LinkedIn</a>
       </div>
     </div>
   </div>

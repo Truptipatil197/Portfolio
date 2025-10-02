@@ -1,3 +1,25 @@
+/* Social Button Styles */
+.social-btn {
+  background: var(--accent);
+  color: var(--card);
+  border-radius: 22px;
+  padding: 0.55rem 1.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 1px 6px rgba(20,184,166,0.10);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  display: inline-block;
+}
+.social-btn:hover {
+  background: var(--card);
+  color: var(--accent);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 16px rgba(20,184,166,0.18);
+}
+#themeToggleContainer {
+  margin-right: 2rem;
+}
    .profile-photo {
       width: 200px;
       height: 200px;
